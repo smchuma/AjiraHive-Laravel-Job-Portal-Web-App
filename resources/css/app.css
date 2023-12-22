@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@300;400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Agba;
+    src: url(/public/fonts/Agbalumo.ttf);
+}
+
+body {
+    color: white;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scrollbar-face-color: transparent;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.logo {
+    font-family: Agba;
+}
