@@ -1,9 +1,9 @@
-<nav class="flex justify-between p-5 bg-[#323640] px-10 border-b border-[#2a2d35]  ">
+<nav class=" fixed w-full top-0 flex justify-between p-5 bg-[#F1FAFA] px-10  ">
    <div class="logo">
-      <h1 class="text-2xl text-blue-300 ">AjiraHive</h1>
+      <h1 class="text-2xl text-black cursor-pointer ">AjiraHive</h1>
    </div>
  <div class="flex items-center gap-5 cursor-pointer " >
- <p class="text-blue-300"  >Login</p>
+ <p class="font-bold"  >Login</p>
    <x-button.button>
       Register
      </x-button.button>
