@@ -1,66 +1,57 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# AjiraHive Job Portal - In Development
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![AjiraHive](./public/Screenshot.png)
 
-## About Laravel
+## Empowering Careers, Enabling Growth in Tanzania
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+AjiraHive is a sophisticated web application developed with Laravel 10, utilizing Blade templates, and enhanced with the aesthetic appeal of Tailwind CSS. This platform acts as a central hub, connecting job seekers with promising career opportunities and assisting employers in finding top-tier talent within the Tanzanian job market.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Key Features:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+#### For Job Seekers:
 
-## Learning Laravel
+-   **Explore Diverse Career Paths:**
+    Browse through an extensive collection of job listings spanning various industries, from technology and accounting to finance, marketing, and more.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+-   **Tailor Your Search:**
+    Refine your job search with advanced filters to discover roles that align perfectly with your skills, experience, and career goals.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+-   **Elevate Your Professional Profile:**
+    Create a captivating professional profile to stand out to potential employers and increase your visibility in the Tanzanian job market.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+#### For Employers:
 
-## Laravel Sponsors
+-   **Effortless Job Postings:**
+    Post job openings seamlessly with our user-friendly platform, ensuring your opportunities reach a vast pool of talented professionals.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+-   **Access Top-Notch Talent:**
+    Explore a curated selection of skilled professionals actively seeking opportunities in Tanzania and find the perfect fit for your team.
 
-### Premium Partners
+-   **Simplify Your Hiring Process:**
+    Leverage AjiraHive's streamlined platform to simplify your hiring process, from posting jobs to reviewing applications.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### Why Choose AjiraHive:
 
-## Contributing
+#### Unparalleled Career Growth:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+-   **Personalized Career Guidance:**
+    Benefit from personalized career guidance and resources to make informed decisions about your professional journey.
 
-## Code of Conduct
+-   **Networking Opportunities:**
+    Connect with industry professionals, mentors, and like-minded individuals to expand your professional network and open doors to new possibilities.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+#### Seamless User Experience:
 
-## Security Vulnerabilities
+-   **Intuitive Platform:**
+    Navigate effortlessly through our platform, thanks to its intuitive design. Whether you're a seasoned professional or a first-time user, AjiraHive ensures a smooth experience.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+-   **Mobile Accessibility:**
+    Access AjiraHive anytime, anywhere, with our mobile-friendly interface. Stay connected to your career or hiring needs on the go.
 
-## License
+#### Comprehensive Career Categories:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+-   **Diverse Industry Coverage:**
+    Our platform spans various industries, ensuring that you can find opportunities in sectors that match your skills and interests.
+
+-   **Continuous Updates:**
+    Stay informed about the latest job openings and industry trends with regular updates on AjiraHive. We're committed to keeping you in the loop.
