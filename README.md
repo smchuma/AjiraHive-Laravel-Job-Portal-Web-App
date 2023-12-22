@@ -1,10 +1,10 @@
 # AjiraHive Job Portal - In Development
 
-![AjiraHive](./public/Screenshot.png)
-
 ## Empowering Careers, Enabling Growth in Tanzania
 
 AjiraHive is a sophisticated web application developed with Laravel 10, utilizing Blade templates, and enhanced with the aesthetic appeal of Tailwind CSS. This platform acts as a central hub, connecting job seekers with promising career opportunities and assisting employers in finding top-tier talent within the Tanzanian job market.
+
+![AjiraHive](./public/Screenshot.png)
 
 ### Key Features:
 
