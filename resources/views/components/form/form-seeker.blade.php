@@ -15,9 +15,7 @@
           Username
         </label>
         <input class="placeholder:text-gray-500 appearance-none block w-full bg-gray-100 {{$errors->has('full_name')  ? 'border-red-500' : ''}}  text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" name="username" placeholder="Username">
-        @if ($errors->has('username'))     
-        <p class="text-red-500 text-xs italic mt-3">{{$errors->first('username')}}</p>          
-        @endif
+      
       </div>
       
     </div>

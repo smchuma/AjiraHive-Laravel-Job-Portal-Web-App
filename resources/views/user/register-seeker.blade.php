@@ -16,11 +16,13 @@
   <x-button.button class="mr-5 px-10 bg-blue-400 text-white border-blue-300 " >
     Job Seeker
 </x-button.button>
+ <a href="{{route('create.employer')}}">
   <x-button.button class="px-10" >
     Employer
 </x-button.button>
+</a>
  </div>
- <x-form.form />
+ <x-form.form-seeker />
  </div>
  </main>
 </body>

@@ -4,14 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   @vite('resources/css/app.css')
-  <title>register employer</title>
+  <title>Register</title>
 </head>
 <body>
 @extends('layouts.app')
 @section('content')
-  <main class="text-black">
-    register employer
-  </main>
+ <main class="flex w-full h-  text-black mt-20 justify-center ">
+ <div class=" flex justify-center items-center flex-col px-10 pb-20 ">
+  <h1 class="text-3xl font-semibold mt-5 " >Create an account</h1>
+ <div class="mt-5 " >
+ <a href="{{route('create.seeker')}}">
+  <x-button.button class="mr-5 px-10 " >
+    Job Seeker
+</x-button.button>
+</a>
+  <x-button.button class="px-10  bg-blue-400 text-white border-blue-300 " >
+    Employer
+</x-button.button>
+ </div>
+ <x-form.form-employer />
+ </div>
+ </main>
 </body>
 @endsection
 </html>
