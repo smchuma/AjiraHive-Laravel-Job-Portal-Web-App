@@ -6,9 +6,11 @@
             <p
             class="mt-5 px-10 text-start md:text-center lg:text-start text-gray-600   "
             >Are you ready to take the next step in your career or find the perfect candidate for your company? AjiraHive is your go-to platform for tech, accounting, and various job opportunities in Tanzania.</p>
+           <a href="{{route('create.seeker')}}">
             <x-button.button class="mx-10 mt-5" >
                 Get Started
             </x-button.button>
+        </a>
     
         </div>
     </div>

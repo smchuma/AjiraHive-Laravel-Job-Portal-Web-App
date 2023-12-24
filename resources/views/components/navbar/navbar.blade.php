@@ -1,11 +1,13 @@
-<nav class=" fixed w-full top-0 flex justify-between p-5 bg-[#F1FAFA] px-10  ">
+<nav class=" fixed w-full top-0 flex justify-between p-5 bg-[#F1FAFA] px-10 border-b-2  ">
    <div class="logo">
-      <h1 class="text-2xl text-black cursor-pointer ">AjiraHive</h1>
+      <a href="{{route('home')}}" class="text-2xl text-black cursor-pointer " >AjiraHive</a>
    </div>
  <div class="flex items-center gap-5 cursor-pointer " >
- <p class="font-bold"  >Login</p>
+<a href="{{route('login')}}">Login</a>
+  <a href="{{route('create.seeker')}}">
    <x-button.button>
       Register
      </x-button.button>
+</a>
  </div>
 </nav>
