@@ -11,6 +11,9 @@
 @section('content')
   <x-hero.hero-section />
   <x-heroCard.hero-card />
+  <main class="mt-20">
+    <h1>hello</h1>
+  </main>
 </body>
 @endsection
 </html>

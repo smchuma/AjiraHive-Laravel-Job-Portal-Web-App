@@ -14,6 +14,10 @@
     <div class="logo mt-10">
         <h1 class="text-2xl text-black cursor-pointer ">AjiraHive</h1>
      </div>
+@if (Session::has('message'))
+<h1 class="mt-5 text-green-700 italic font-bold " >{{Session::get('message')}}</h1>
+@endif
+
 
   <form class="w-full max-w-lg mt-10" action="{{route('login.post')}}" method="post" >
     @csrf

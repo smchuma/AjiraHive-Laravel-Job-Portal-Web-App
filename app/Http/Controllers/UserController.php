@@ -25,7 +25,7 @@ class UserController extends Controller
             'user_type' => self::JOB_SEEKER
 
         ]);
-        return redirect()->route('login');
+        return redirect()->route('login')->with('message', 'Your account was created');
     }
 
     public function login()
@@ -71,10 +71,11 @@ class UserController extends Controller
             'full_name' => request('full_name'),
             'email' => request('email'),
             'password' => bcrypt(request('password')),
-            'user_type' => self::JOB_EMPLOYER
+            'user_type' => self::JOB_EMPLOYER,
+            'user_trial' => now()->addWeek()
 
         ]);
-        return redirect()->route('login');
+        return redirect()->route('login')->with('message', 'Your account was created');
     }
 
 
