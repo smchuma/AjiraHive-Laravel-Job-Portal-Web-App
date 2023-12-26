@@ -17,7 +17,7 @@ class UserController extends Controller
 
     public function storeSeeker(RegistrationFormRequest  $request) {
 
-        User::create([
+        $user = User::create([
             'full_name' => request('full_name'),
             'username' => request('username'),
             'email' => request('email'),
@@ -25,7 +25,11 @@ class UserController extends Controller
             'user_type' => self::JOB_SEEKER
 
         ]);
-        return redirect()->route('login')->with('message', 'Your account was created');
+
+        Auth::login($user);
+        $user->sendEmailVerificationNotification();
+
+        return redirect()->route('verification.notice')->with('message', 'Your account was created');
     }
 
     public function login()
@@ -67,7 +71,7 @@ class UserController extends Controller
 
     public function storeEmployer(RegistrationFormRequest $request) {
 
-        User::create([
+        $user = User::create([
             'full_name' => request('full_name'),
             'email' => request('email'),
             'password' => bcrypt(request('password')),
@@ -75,7 +79,12 @@ class UserController extends Controller
             'user_trial' => now()->addWeek()
 
         ]);
-        return redirect()->route('login')->with('message', 'Your account was created');
+
+        Auth::login($user);
+
+        $user->sendEmailVerificationNotification();
+
+        return redirect()->route('verification.notice')->with('message', 'Your account was created');
     }
 
 

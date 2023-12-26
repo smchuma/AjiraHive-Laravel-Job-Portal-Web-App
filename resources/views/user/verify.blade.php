@@ -10,7 +10,11 @@
 <main class="mt-20 p-5 ">
     <div class="border">
         <h1 class="text-xl font-bold bg-gray-200 p-2 ">Verify Account</h1>
-        <p class="p-2 pb-5" >Your account is not verified. Please verify your account</p>
+        <p class="p-2 pb-5" >Your account is not verified. Please
+          <a href="{{route("resend.email")}} " class="link underline italic text-blue-600">verify your email</a>
+
+
+        </p>
     </div>
 </main>
  </main>
